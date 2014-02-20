@@ -1,0 +1,178 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "0a006e66a27b28e34f8fb8cd26511fdd",
+    "packages": [
+        {
+            "name": "eloquent/composer-npm-bridge",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/composer-npm-bridge.git",
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/69d603458acf92ec3ad802f00f49d7066be5f7fc",
+                "reference": "69d603458acf92ec3ad802f00f49d7066be5f7fc",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "icecave/isolator": "~2",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "composer/composer": "dev-master@dev",
+                "icecave/archer": "~1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Eloquent\\Composer\\NpmBridge\\NpmBridgePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Composer\\NpmBridge\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "NPM integration for Composer packages.",
+            "homepage": "https://github.com/eloquent/composer-npm-bridge",
+            "keywords": [
+                "Bridge",
+                "composer",
+                "composer-plugin",
+                "integration",
+                "npm",
+                "package",
+                "plugin"
+            ],
+            "time": "2014-02-12 04:06:34"
+        },
+        {
+            "name": "ezzatron/composer-npm-bridge-fixture-dependency",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
+                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/26e39293d0e188c2d517045ca61b8052fe0a8b98",
+                "reference": "26e39293d0e188c2d517045ca61b8052fe0a8b98",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/composer-npm-bridge": "~2.1.0"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
+                "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
+            },
+            "time": "2014-02-12 04:39:48"
+        },
+        {
+            "name": "ezzatron/composer-npm-bridge-fixture-intermediate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-intermediate.git",
+                "reference": "392fa40d87ee83511637784f1bc4442f0d15f815"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-intermediate/zipball/392fa40d87ee83511637784f1bc4442f0d15f815",
+                "reference": "392fa40d87ee83511637784f1bc4442f0d15f815",
+                "shasum": ""
+            },
+            "require": {
+                "ezzatron/composer-npm-bridge-fixture-dependency": "dev-master@dev"
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-intermediate/tree/master",
+                "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-intermediate/issues"
+            },
+            "time": "2014-02-20 05:22:36"
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/isolator/zipball/2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "reference": "2f3fbfcee90790fb3ddde9d4288a2a927cdf6dd6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~0.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Icecave\\Isolator": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au",
+                    "homepage": "https://github.com/jmalloc"
+                }
+            ],
+            "description": "Isolate PHP tests from the global environment.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ],
+            "time": "2013-06-04 05:00:29"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ezzatron/composer-npm-bridge-fixture-intermediate": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
