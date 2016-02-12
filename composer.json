@@ -1,16 +1,16 @@
 {
     "name": "ezzatron/composer-npm-bridge-fixture-nested",
     "require": {
-        "ezzatron/composer-npm-bridge-fixture-intermediate": "dev-master@dev"
+        "ezzatron/composer-npm-bridge-fixture-intermediate": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-intermediate.git"
+            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-intermediate"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git"
+            "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency"
         }
     ],
     "minimum-stability": "dev"
